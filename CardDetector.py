@@ -105,7 +105,6 @@ while cam_quit == 0:
     
     cv2.putText(image,"FPS: "+str(int(frame_rate_calc)),(10,26),font,0.5,(255,0,255),2,cv2.LINE_AA)
     cv2.putText(image,"Cards: " + test ,(10,50),font,0.5,(255,0,255),2,cv2.LINE_AA)
-    cv2.putText(image,"Juega: " + "yes" ,(10,70),font,0.5,(255,0,255),2,cv2.LINE_AA)
 
     # Finally, display the image with the identified cards!
     cv2.imshow("Card Detector",image)
